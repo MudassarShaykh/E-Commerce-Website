@@ -20,7 +20,7 @@ export default function HomePageSlider() {
       <SwiperSlide>
         <div className="flex flex-col md:flex-row md:justify-evenly gap-2 w-screen h-96 bg-gradient-to-b from-pink-50 to-sky-50 font-FullTypeface relative ">
           <div className="flex">
-            <img src="images/Lamp-1.png" alt="Nothing" 
+            <img src="/Images/Lamp-1.png" alt="Nothing" 
             className="h-32 md:h-48"/>
             <div className="pt-10 md:pt-28">
               <h6 className="text-xs text-pink-600">Best Furniture For Your Office...</h6>
@@ -37,7 +37,7 @@ export default function HomePageSlider() {
               </div>
             </div>
             <div className="md:w-80">  
-            <img src="images/Sofa-1.png" alt="Nothing" 
+            <img src="/Images/Sofa-1.png" alt="Nothing" 
             className="h-56 lg:h-80"/>
             </div>
           </div>
@@ -47,7 +47,7 @@ export default function HomePageSlider() {
       <SwiperSlide>
       <div className="flex flex-col md:flex-row md:justify-evenly gap-2 w-screen h-96 bg-gradient-to-b from-blue-50 to-emerald-50 font-FullTypeface relative ">
           <div className="flex">
-            <img src="images/watch.png" alt="Nothing" 
+            <img src="/Images/watch.png" alt="Nothing" 
             className="h-28 md:h-44 px-5 pt-10 rotate-12"/>
             <div className="pt-10 md:pt-28">
               <h6 className="text-xs text-pink-600">Head Phone For Yor Gaming Experience...</h6>
@@ -64,7 +64,7 @@ export default function HomePageSlider() {
               </div>
             </div>
             <div className="md:w-80">  
-            <img src="images/headphone-1.png" alt="Nothing" 
+            <img src="/Images/headphone-1.png" alt="Nothing" 
             className="h-56 lg:h-80 rotate-6"/>
             </div>
           </div>
@@ -74,7 +74,7 @@ export default function HomePageSlider() {
       <SwiperSlide>
         <div className="flex flex-col md:flex-row md:justify-evenly gap-2 w-screen h-96 bg-gradient-to-br from-gray-50 to-orange-50 font-FullTypeface relative ">
           <div className="flex">
-            <img src="images/Lamp-1.png" alt="Nothing" 
+            <img src="/Images/Lamp-1.png" alt="Nothing" 
             className="h-32 md:h-48"/>
             <div className="pt-10 md:pt-28">
               <h6 className="text-xs text-pink-600">Best Furniture For Your Favorite Guests...</h6>
@@ -91,7 +91,7 @@ export default function HomePageSlider() {
               </div>
             </div>
             <div className="md:w-80">  
-            <img src="images/Sofa-2.png" alt="Nothing" 
+            <img src="/Images/Sofa-2.png" alt="Nothing" 
             className="h-56 lg:h-80"/>
             </div>
           </div>

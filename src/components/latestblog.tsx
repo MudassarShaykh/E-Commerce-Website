@@ -18,7 +18,7 @@ export default function LatestBlog() {
       <div className="flex justify-center items-center gap-2 sm:gap-10 md:scale-125 lg:md:scale-150">
         <div className="h-44 w-32 flex justify-center items-center flex-col gap-1">
           <div className="h-2/4 ">
-          <img src="Images/blogimage.jpg" className="h-full rounded " alt="Nothing"/>
+          <img src="/Images/blogimage.jpg" className="h-full rounded " alt="Nothing"/>
           </div>
           <div className="h-2/4 flex justify-start items-start flex-col gap-1">
           <div className="flex justify-center items-center gap-1" >
@@ -43,7 +43,7 @@ export default function LatestBlog() {
 
         <div className="h-44 w-32 flex justify-center items-center flex-col gap-1">
           <div className="h-2/4 ">
-          <img src="Images/blogimage2.jpg" className="h-full rounded" alt="Nothing"/>
+          <img src="/Images/blogimage2.jpg" className="h-full rounded" alt="Nothing"/>
           </div>
           <div className="h-2/4 flex justify-start items-start flex-col gap-1">
           <div className="flex justify-center items-center gap-2" >
@@ -68,7 +68,7 @@ export default function LatestBlog() {
 
         <div className="h-44 w-32 flex justify-center items-center flex-col gap-1">
           <div className="h-2/4 ">
-          <img src="Images/blogimage3.jpg" className="h-full rounded" alt="Nothing"/>
+          <img src="/Images/blogimage3.jpg" className="h-full rounded" alt="Nothing"/>
           </div>
           <div className="h-2/4 flex justify-start items-start flex-col gap-1">
           <div className="flex justify-center items-center gap-2" >

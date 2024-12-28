@@ -8,9 +8,9 @@ export default function DiscountItem() {
   const [activeCategory, setActiveCategory] = useState("Wooden Chair");
 
   const itemList: any = {
-    "Wooden Chair": [{ image: "images/chair-1.png" , name: "Eams Sofa Compact"}],
-    "Plastic Chair": [{ image: "images/chair-2.png" , name: "Quality Compact Sofa"}],
-    "Sofa Collection": [{ image: "images/chair-3.png" , name: "Crazy Eams Sofa" }],
+    "Wooden Chair": [{ image: "/Images/chair-1.png" , name: "Eams Sofa Compact"}],
+    "Plastic Chair": [{ image: "/Images/chair-2.png" , name: "Quality Compact Sofa"}],
+    "Sofa Collection": [{ image: "/Images/chair-3.png" , name: "Crazy Eams Sofa" }],
   };
   return (
     <div className="flex flex-col items-center py-10 md:py-2 m-0 gap-5 font-FullTypeface md:scale-110 md:my-20 lg:scale-125 lg:my-28 ">

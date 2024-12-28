@@ -20,7 +20,7 @@ export default function TrendingProduct() {
           <div className="relative shadow-md shadow-gray-400 group cursor-pointer">
             <div className="h-36 w-24 sm:w-28 font-FullTypeface">
               <div className="h-2/3 flex items-center justify-center bg-gray-200 mx-2 mt-2">
-                <img src="images/Sofa-1.png" className="h-2/3" alt="Nothing"/>
+                <img src="/Images/Sofa-1.png" className="h-2/3" alt="Nothing"/>
               </div>
               <div className="h-1/3 flex items-center justify-center bg-white group-hover:bg-blue-900 transition-all duration-700 ease-in">
                 <div className="flex flex-col gap-1 items-center text-xxs group-hover:text-white">
@@ -45,7 +45,7 @@ export default function TrendingProduct() {
           <div className="relative shadow-md shadow-gray-400 group cursor-pointer">
             <div className="h-36 w-24 sm:w-28 font-FullTypeface">
               <div className="h-2/3 flex items-center justify-center bg-gray-200 mx-2 mt-2">
-                <img src="images/Sofa-2.png" className="h-2/3" alt="Nothing"/>
+                <img src="/Images/Sofa-2.png" className="h-2/3" alt="Nothing"/>
               </div>
               <div className="h-1/3 flex items-center justify-center bg-white group-hover:bg-blue-900 transition-all duration-700 ease-in">
                 <div className="flex flex-col gap-1 items-center text-xxs group-hover:text-white">
@@ -70,7 +70,7 @@ export default function TrendingProduct() {
           <div className="relative shadow-md shadow-gray-400 group cursor-pointer">
             <div className="h-36 w-24 sm:w-28 font-FullTypeface">
               <div className="h-2/3 flex items-center justify-center bg-gray-200 mx-2 mt-2">
-                <img src="images/chair-1.png" className="h-2/3" alt="Nothing"/>
+                <img src="/Images/chair-1.png" className="h-2/3" alt="Nothing"/>
               </div>
               <div className="h-1/3 flex items-center justify-center bg-white group-hover:bg-blue-900 transition-all duration-700 ease-in">
                 <div className="flex flex-col gap-1 items-center text-xxs group-hover:text-white">
@@ -95,7 +95,7 @@ export default function TrendingProduct() {
           <div className="relative shadow-md shadow-gray-400 group cursor-pointer">
             <div className="h-36 w-24 sm:w-28 font-FullTypeface">
               <div className="h-2/3 flex items-center justify-center bg-gray-200 mx-2 mt-2">
-                <img src="images/chair-2.png" className="h-2/3" alt="Nothing"/>
+                <img src="/Images/chair-2.png" className="h-2/3" alt="Nothing"/>
               </div>
               <div className="h-1/3 flex items-center justify-center bg-white group-hover:bg-blue-900 transition-all duration-700 ease-in">
                 <div className="flex flex-col gap-1 items-center text-xxs group-hover:text-white">
@@ -127,7 +127,7 @@ export default function TrendingProduct() {
               <p className="text-xs text-pink-600 underline">Shop Now</p>
             </div>
             <div className="flex justify-end items-center h-3/4">
-              <img src="images/clock-1.png" className="h-full" />
+              <img src="/Images/clock-1.png" className="h-full" />
             </div>
           </div>
 
@@ -147,7 +147,7 @@ export default function TrendingProduct() {
         <div className="flex flex-col justify-center items-center gap-2 cursor-pointer">
           <div className="w-96 h-16 sm:h-10 sm:w-56 bg-white px-2 flex items-center gap-4 shadow-xl">
             <div className="flex justify-center items-center h-3/4">
-              <img src="images/dischair-1.png" className="h-full bg-gray-100" alt="Nothing"/>
+              <img src="/Images/dischair-1.png" className="h-full bg-gray-100" alt="Nothing"/>
             </div>
 
             <div className="flex justify-between items-center gap-3">
@@ -162,7 +162,7 @@ export default function TrendingProduct() {
 
           <div className="w-96 h-16 sm:h-10 sm:w-56 bg-white px-2 flex items-center gap-4 shadow-xl">
             <div className="flex justify-center items-center h-3/4">
-              <img src="images/dischair-2.png" className="h-full bg-gray-100" alt="Nothing"/>
+              <img src="/Images/dischair-2.png" className="h-full bg-gray-100" alt="Nothing"/>
             </div>
 
             <div className="flex justify-between items-center gap-3">
@@ -177,7 +177,7 @@ export default function TrendingProduct() {
 
           <div className="w-96 h-16 sm:h-10 sm:w-56 bg-white px-2 flex items-center gap-4 shadow-xl">
             <div className="flex justify-center items-center h-3/4">
-              <img src="images/clock-1.png" className="h-full bg-gray-100" alt="Nothing"/>
+              <img src="/Images/clock-1.png" className="h-full bg-gray-100" alt="Nothing"/>
             </div>
 
             <div className="flex justify-between items-center gap-3">
