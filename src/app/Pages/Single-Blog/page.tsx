@@ -10,7 +10,6 @@ import {
   FaPause,
   FaPlay,
 } from "react-icons/fa6";
-import { GoDotFill } from "react-icons/go";
 import { CiSearch } from "react-icons/ci";
 import { useState, useRef } from "react";
 
@@ -137,6 +136,7 @@ export default function SingleBlog() {
             <div className="w-full h-full">
               <img
                 src="/Images/shop3.jpg"
+                alt="Nothing"
                 className="w-full h-full object-cover object-center"
               />
             </div>
@@ -158,10 +158,10 @@ export default function SingleBlog() {
             </div>
             <div>
               <p className="text-[#151875] font-bold text-[2.5vw] sm:text-[2vw]">
-                An Inspirational Story of Mudassar Khan's CEO of Trading
+                An Inspirational Story of Mudassar Khan CEO of Trading
               </p>
               <p className="text-[#8A8FB9] text-[5px] sm:text-xxs lg:text-sm">
-                Mudassar Khan's journey from humble beginnings to becoming the
+                Mudassar Khan journey from humble beginnings to becoming the
                 CEO of a thriving trading company is a testament to resilience,
                 determination, and vision. His innovative strategies and
                 unwavering commitment have not only redefined success but also
@@ -181,7 +181,7 @@ export default function SingleBlog() {
               <p className="text-[#969CB4] text-[5px] italic md:my-10 my-4 pl-1 py-2 sm:text-xxs lg:text-[16px]  h-fit leading-loose border-l border-[#FC45A0] bg-[#FAFAFB]">
                 His journey is a testament to the fact that great success stems
                 from a combination of vision, resilience, and unwavering
-                dedication. Mudassar Khan's story continues to inspire countless
+                dedication. Mudassar Khan story continues to inspire countless
                 individuals to dream big and work hard to achieve their goals.
               </p>
 
@@ -221,6 +221,7 @@ export default function SingleBlog() {
                 <div className="w-1/2 h-full">
                   <img
                     src="/Images/shop3.jpg"
+                    alt="Nothing"
                     className="w-full h-full object-cover object-center"
                   />
                 </div>
@@ -244,6 +245,7 @@ export default function SingleBlog() {
                 >
                   <img
                     src={list.image}
+                    alt="Nothing"
                     className="w-full h-3/4 object-center object-cover"
                   />
                   <div className="w-full h-1/4 flex flex-col justify-start items-center scale-75 sm:scale-100">
@@ -253,7 +255,7 @@ export default function SingleBlog() {
                       <p className="md:text-[1vw] text-[5px] text-[#FF38B0] line-through">
                         {list.originalPrice}
                       </p>
-                      <img src={list.image2} className="w-1/3" />
+                      <img src={list.image2} className="w-1/3" alt="Nothing"/>
                     </div>
                   </div>
                 </div>
@@ -267,7 +269,7 @@ export default function SingleBlog() {
               homeowner. From minimalist modern designs with clean lines and
               neutral tones to luxurious traditional pieces with intricate
               detailing,furniture styling caters to a wide array of tastes.
-              Proper styling involves balancing furniture pieces with the room's
+              Proper styling involves balancing furniture pieces with the rooms
               layout
             </p>
             <p className="text-[#8A8FB9] text-[5px] md:pt-10  pt-4 sm:text-xxs lg:text-sm">
@@ -298,6 +300,7 @@ export default function SingleBlog() {
               <div className="w-full flex justify-start gap-2 items-center bg-white shadow-lg sm:p-2 p-1">
                 <img
                   src="/Images/Man1.png"
+                  alt="Nothing"
                   className="h-full w-1/5 object-cover object-top"
                 />
                 <div>
@@ -318,6 +321,7 @@ export default function SingleBlog() {
               <div className="w-full flex justify-start gap-2 items-center bg-white shadow-lg sm:p-2 p-1">
                 <img
                   src="/Images/Man1.png"
+                  alt="Nothing"
                   className="h-full w-1/5 object-cover object-top"
                 />
                 <div>
@@ -420,6 +424,7 @@ export default function SingleBlog() {
                 <div className="w-1/3 h-full">
                   <img
                     src={item.image}
+                    alt="Nothing"
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
@@ -447,6 +452,7 @@ export default function SingleBlog() {
                 <div className="w-1/3 h-full">
                   <img
                     src={item.image}
+                    alt="Nothing"
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
@@ -474,6 +480,7 @@ export default function SingleBlog() {
                 <div className="w-full h-2/3 rounded-lg">
                   <img
                     src={item.image}
+                    alt="Nothing"
                     className="h-full w-full object-cover object-center rounded-lg"
                   />
                 </div>
@@ -518,7 +525,7 @@ export default function SingleBlog() {
       </div>
 
       <div className="flex justify-center items-center my-20 md:my-32 cursor-pointer">
-        <img src="/Images/bgimage2.png" />
+        <img src="/Images/bgimage2.png" alt="Nothing"/>
       </div>
 
       <Footer/>

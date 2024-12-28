@@ -198,7 +198,7 @@ export default function ShopGridDefault() {
                 <p className="text-pink-600 line-through">
                   {product.originalPrice}
                 </p>
-                <img src="/Images/stars.png" className="h-2 pl-2" />
+                <img src="/Images/stars.png" className="h-2 pl-2" alt="Nothing"/>
               </div>
               <p className="text-[#9295AA] text-xm md:text-xs">
                 {product.description}
@@ -241,7 +241,7 @@ export default function ShopGridDefault() {
         </Pagination>
       </div>
       <div className="flex justify-center items-center my-20 md:my-32 cursor-pointer">
-        <img src="/Images/bgimage2.png" />
+        <img src="/Images/bgimage2.png" alt="Nothing"/>
       </div>
       <Footer />
     </div>

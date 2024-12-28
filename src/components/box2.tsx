@@ -11,7 +11,7 @@ export default function Box2() {
         </div>
 
         <div className="cursor-pointer">
-            <img src="Images/bgimage2.png" loading="lazy" />
+            <img src="Images/bgimage2.png" loading="lazy" alt="Nothing"/>
         </div>
          </div>
     )

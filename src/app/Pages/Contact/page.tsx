@@ -89,7 +89,7 @@ export default function Contact() {
                 </div>
 
                 <div className="w-72 md:w-[450px]">
-                    <img src="/Images/contactpic.png" className="w-full" />
+                    <img src="/Images/contactpic.png" className="w-full" alt="Nothing" />
                 </div>
 
                 </div>

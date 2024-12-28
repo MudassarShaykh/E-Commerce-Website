@@ -1,10 +1,8 @@
-import Link from "next/link"
-
 export default function Box1(){
     return (
         <div className="flex justify-center md:gap-10 items-center w-screen h-72 md:h-96 lg:my-16 bg-gradient-to-br  from-pink-100 to-sky-100 font-FullTypeface">
         <div className="flex items-center justify-center">
-            <img src="images/sofa.png" loading="lazy" className="w-72 lg:w-96"/>
+            <img src="images/sofa.png" loading="lazy" className="w-72 lg:w-96" alt="Nothing"/>
         </div>
         <div className="flex flex-col justify-center items-start gap-4 lg:scale-125">
             <div className="flex justify-center items-center pl-2">

@@ -172,6 +172,7 @@ export default function MektaDemo() {
               <div className="w-2/6 h-full bg-gradient-to-tl from-slate-200 to-sky-100">
                 <img
                   src={item.image}
+                  alt="Nothing"
                   className="w-full min-w-[100px] h-full object-center object-cover "
                 />
               </div>

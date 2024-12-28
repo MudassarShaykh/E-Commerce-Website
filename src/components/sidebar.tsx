@@ -79,7 +79,7 @@ export default function SideBar() {
             <div key={index} className="flex gap-1 items-center">
               <Checkbox className="bg-[#FFF6DA] text-[#FFCC2E] border-[#FFCC2E] data-[state=checked]:bg-[#FFCC2E] data-[state=checked]:text-[#FFF6DA] " />
               <div className="flex justify-center items-center gap-1">
-                <img src={style.image} className="w-14" />
+                <img src={style.image} className="w-14" alt="Nothing"/>
                 <p className="text-black text-xs">{style.name}</p>
               </div>
             </div>

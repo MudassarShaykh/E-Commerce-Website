@@ -1,5 +1,3 @@
-import React from 'react'
-
 const products:{[key:string]:any }= {
     "comfortable-chair-ccf": {
       image: "/images/chair-7.png",

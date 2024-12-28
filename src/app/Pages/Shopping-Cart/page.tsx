@@ -3,7 +3,6 @@
 import Header from "@/components/header";
 import Footer from "@/components/footer";
 import Link from "next/link";
-import { LuRefreshCcw, LuHeart, LuTrash } from "react-icons/lu";
 import { FcApproval } from "react-icons/fc";
 import { TbXboxXFilled } from "react-icons/tb";
 import { useState } from "react";

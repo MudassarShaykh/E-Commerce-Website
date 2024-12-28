@@ -39,7 +39,7 @@ export default function TopCategories() {
           <div className="md:scale-125">
             <div className="h-40 w-28 font-FullTypeface">
               <div className="h-2/3 flex items-center justify-center bg-gray-100 rounded-full transition-shadow duration-500 ease-in-out relative group hover:shadow-[-2px_2px_0px_#a855f7]">
-                <img src="images/chair-5.png" className="h-2/3" />
+                <img src="images/chair-5.png" className="h-2/3" alt="Nothing"/>
 
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in">
               <div>
@@ -79,7 +79,7 @@ export default function TopCategories() {
           <div className="md:scale-125 ">
             <div className="h-40 w-28 font-FullTypeface">
               <div className="h-2/3 flex items-center justify-center bg-gray-100 rounded-full transition-shadow duration-500 ease-in-out relative group hover:shadow-[-2px_2px_0px_#a855f7]">
-                <img src="images/chair-6.png" className="h-2/3" />
+                <img src="images/chair-6.png" className="h-2/3" alt="Nothing"/>
 
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in">
               <div>
@@ -119,7 +119,7 @@ export default function TopCategories() {
           <div className="md:scale-125 ">
             <div className="h-40 w-28 font-FullTypeface">
               <div className="h-2/3 flex items-center justify-center bg-gray-100 rounded-full transition-shadow duration-500 ease-in-out relative group hover:shadow-[-2px_2px_0px_#a855f7]">
-                <img src="images/chair-7.png" className="h-2/3" />
+                <img src="images/chair-7.png" className="h-2/3" alt="Nothing"/>
 
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in">
               <div>
@@ -159,7 +159,7 @@ export default function TopCategories() {
           <div className="md:scale-125 ">
             <div className="h-40 w-28 font-FullTypeface">
               <div className="h-2/3 flex items-center justify-center bg-gray-100 rounded-full transition-shadow duration-500 ease-in-out relative group hover:shadow-[-2px_2px_0px_#a855f7]">
-                <img src="images/chair-8.png" className="h-2/3" />
+                <img src="images/chair-8.png" className="h-2/3" alt="Nothing"/>
 
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in">
               <div>
@@ -199,7 +199,7 @@ export default function TopCategories() {
           <div className="md:scale-125 ">
             <div className="h-40 w-28 font-FullTypeface">
               <div className="h-2/3 flex items-center justify-center bg-gray-100 rounded-full transition-shadow duration-500 ease-in-out relative group hover:shadow-[-2px_2px_0px_#a855f7]">
-                <img src="images/chair-9.png" className="h-2/3" />
+                <img src="images/chair-9.png" className="h-2/3" alt="Nothing"/>
 
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 ease-in">
               <div>

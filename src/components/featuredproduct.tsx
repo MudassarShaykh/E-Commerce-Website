@@ -39,7 +39,7 @@ export default function FeaturedProduct() {
           <div className="relative shadow-lg group md:scale-125">
             <div className="h-40 w-28 font-FullTypeface">
               <div className="h-2/3 flex items-center justify-center bg-gray-100">
-                <img src="images/Sofa-1.png" loading="lazy" className="h-2/3" />
+                <img src="images/Sofa-1.png" loading="lazy" className="h-2/3" alt="Nothing"/>
               </div>
               <div className="h-1/3 flex items-center justify-center bg-white group-hover:bg-blue-900 transition-all duration-700 ease-in">
                 <div className="flex flex-col gap-1 items-center text-xxs group-hover:text-white">

@@ -223,7 +223,7 @@ export default function ShopGridDefault() {
         </Pagination>
       </div>
       <div className="flex justify-center items-center my-20 md:my-32 cursor-pointer">
-        <img src="/Images/bgimage2.png" />
+        <img src="/Images/bgimage2.png" alt="Nothing"/>
       </div>
       <Footer />
     </div>

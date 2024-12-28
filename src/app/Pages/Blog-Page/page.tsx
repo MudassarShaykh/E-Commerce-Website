@@ -148,6 +148,7 @@ export default function BlogPage() {
               <div className="w-full h-2/3">
                 <img
                   src={list.image}
+                  alt="Nothing"
                   className="w-full h-full object-cover object-bottom"
                 />
               </div>
@@ -225,6 +226,7 @@ export default function BlogPage() {
                 <div className="w-1/3 h-full">
                   <img
                     src={item.image}
+                    alt="Nothing"
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
@@ -252,6 +254,7 @@ export default function BlogPage() {
                 <div className="w-1/3 h-full">
                   <img
                     src={item.image}
+                    alt="Nothing"
                     className="h-full w-full object-cover object-center"
                   />
                 </div>
@@ -279,6 +282,7 @@ export default function BlogPage() {
                 <div className="w-full h-2/3 rounded-lg">
                   <img
                     src={item.image}
+                    alt="Nothing"
                     className="h-full w-full object-cover object-center rounded-lg"
                   />
                 </div>
@@ -339,7 +343,7 @@ export default function BlogPage() {
       </div>
 
       <div className="flex justify-center items-center my-20 md:my-32 cursor-pointer">
-        <img src="/Images/bgimage2.png" />
+        <img src="/Images/bgimage2.png" alt="Nothing" />
       </div>
       <Footer />
     </div>

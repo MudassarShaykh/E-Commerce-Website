@@ -18,7 +18,7 @@ export default function LatestBlog() {
       <div className="flex justify-center items-center gap-2 sm:gap-10 md:scale-125 lg:md:scale-150">
         <div className="h-44 w-32 flex justify-center items-center flex-col gap-1">
           <div className="h-2/4 ">
-          <img src="Images/blogimage.jpg" className="h-full rounded "/>
+          <img src="Images/blogimage.jpg" className="h-full rounded " alt="Nothing"/>
           </div>
           <div className="h-2/4 flex justify-start items-start flex-col gap-1">
           <div className="flex justify-center items-center gap-1" >
@@ -43,7 +43,7 @@ export default function LatestBlog() {
 
         <div className="h-44 w-32 flex justify-center items-center flex-col gap-1">
           <div className="h-2/4 ">
-          <img src="Images/blogimage2.jpg" className="h-full rounded "/>
+          <img src="Images/blogimage2.jpg" className="h-full rounded" alt="Nothing"/>
           </div>
           <div className="h-2/4 flex justify-start items-start flex-col gap-1">
           <div className="flex justify-center items-center gap-2" >
@@ -68,7 +68,7 @@ export default function LatestBlog() {
 
         <div className="h-44 w-32 flex justify-center items-center flex-col gap-1">
           <div className="h-2/4 ">
-          <img src="Images/blogimage3.jpg" className="h-full rounded "/>
+          <img src="Images/blogimage3.jpg" className="h-full rounded" alt="Nothing"/>
           </div>
           <div className="h-2/4 flex justify-start items-start flex-col gap-1">
           <div className="flex justify-center items-center gap-2" >
@@ -77,7 +77,7 @@ export default function LatestBlog() {
           </div>
           <div className="flex justify-center items-start flex-col gap-1 group">
                 <p className="text-xxs font-semibold text-[#151875]  group-hover:text-pink-600 transition-all duration-300">
-                2024's Hottest Furniture Trends
+                2024 Hottest Furniture Trends
                 </p>
                 <p className="text-xxs text-gray-400 leading-tight">
                 More off this less hello samlande lied much over tightly circa horse taped mightly

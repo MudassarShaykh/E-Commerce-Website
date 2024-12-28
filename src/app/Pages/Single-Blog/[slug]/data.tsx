@@ -1,5 +1,3 @@
-import React from 'react'
-
 const details:{[key:string]:any }= {
     "Top-esssential-Trends-in-2024": {
       image: "/Images/blogimage.jpg",

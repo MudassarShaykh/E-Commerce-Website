@@ -12,7 +12,6 @@ import { RiArrowDropDownLine } from "react-icons/ri";
 import { LuUserRoundPlus } from "react-icons/lu";
 import { CiSearch } from "react-icons/ci";
 import { RxCross2 } from "react-icons/rx";
-import { motion } from "framer-motion";
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(true);
   const [SelectedLanguage, setSelectedLanguage] = useState("English");

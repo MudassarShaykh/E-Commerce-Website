@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function DiscountItem() {
   const [activeCategory, setActiveCategory] = useState("Wooden Chair");
 
-  let itemList: any = {
+  const itemList: any = {
     "Wooden Chair": [{ image: "images/chair-1.png" , name: "Eams Sofa Compact"}],
     "Plastic Chair": [{ image: "images/chair-2.png" , name: "Quality Compact Sofa"}],
     "Sofa Collection": [{ image: "images/chair-3.png" , name: "Crazy Eams Sofa" }],
@@ -66,7 +66,7 @@ export default function DiscountItem() {
             </div>
           </div>
           <div className="flex justify-center items-center">
-            <img src={itemList.image} className="w-60 lg:w-96" loading="lazy"/>
+            <img src={itemList.image} className="w-60 lg:w-96" loading="lazy" alt="Nothing"/>
           </div>
         </div>
       ))}

@@ -70,21 +70,24 @@ export default function ProductDetail() {
           <div className="bg-sky-100 h-full w-full">
             <img
               src="/Images/sofa.png"
+              alt="Nothing"
               className="w-full h-full object-center"
             />
           </div>
           <div className="flex justify-center items-center col-span-2 row-span-3 h-full w-full bg-gray-100">
-            <img src="/Images/sofa-2.png" className="w-full object-center" />
+            <img src="/Images/sofa-2.png" className="w-full object-center" alt="Nothing"/>
           </div>
           <div className="bg-slate-100 h-full w-full">
             <img
               src="/Images/Sofa-1.png"
+              alt="Nothing"
               className="w-full h-full object-center"
             />
           </div>
           <div className="bg-pink-100 h-full w-full">
             <img
               src="/Images/sofa-3.png"
+              alt="Nothing"
               className="w-full h-full object-center"
             />
           </div>
@@ -96,7 +99,7 @@ export default function ProductDetail() {
           </p>
 
           <div className="flex justify-start items-center gap-1">
-            <img src="/Images/stars.png" />
+            <img src="/Images/stars.png" alt="Nothing"/>
             <p className="text-[#0D134E] text-sm">(22)</p>
           </div>
 
@@ -228,7 +231,7 @@ export default function ProductDetail() {
         <div className="grid justify-start items-center gap-4 grid-cols-2 md:grid-cols-4">
           <div className="h-64 w-44 flex flex-col justify-center items-start">
             <div className="w-full h-56">
-              <img src="/Images/Man1.png" className="w-full rounded" />
+              <img src="/Images/Man1.png" className="w-full rounded" alt="Nothing"/>
             </div>
             <div className="flex justify-between items-center w-full">
               <p className="text-xm  text-[#151875]">Mens Fashion Wear</p>
@@ -239,7 +242,7 @@ export default function ProductDetail() {
 
           <div className="h-64 w-44 flex flex-col justify-center items-start">
             <div className="w-full h-56 ">
-              <img src="/Images/woman1.jpg" className="h-full w-full rounded" />
+              <img src="/Images/woman1.jpg" className="h-full w-full rounded" alt="Nothing"/>
             </div>
             <div className="flex justify-between items-center w-full">
               <p className="text-xm  text-[#151875]">Women’s Fashion</p>
@@ -250,11 +253,11 @@ export default function ProductDetail() {
 
           <div className="h-64 w-44 flex flex-col justify-center items-start">
             <div className="w-full h-56">
-              <img src="/Images/woman2.jpg" className="w-full h-full rounded" />
+              <img src="/Images/woman2.jpg" className="w-full h-full rounded" alt="Nothing"/>
             </div>
             <div className="flex justify-between items-center w-full">
               <p className="text-xm  text-[#151875]">Wolx Dummy Fashion</p>
-              <img src="/Images/stars.png" alt="" />
+              <img src="/Images/stars.png" alt="Nothing" />
             </div>
             <p className="text-[9px]  text-[#151875]">$89.00</p>
           </div>
@@ -273,7 +276,7 @@ export default function ProductDetail() {
       </div>
 
       <div className="flex justify-center items-center my-20 md:my-32 cursor-pointer">
-        <img src="/Images/bgimage2.png" />
+        <img src="/Images/bgimage2.png" alt="Nothing"/>
       </div>
       <Footer />
     </div>
