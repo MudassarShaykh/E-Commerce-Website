@@ -91,7 +91,7 @@ export default function HomePageSlider() {
               </div>
             </div>
             <div className="md:w-80">  
-            <img src="Images/Sofa-3.png" alt="Nothing" className="h-56 lg:h-80"/>
+            <img src="/Images/sofa-3.png" alt="Nothing" className="h-56 lg:h-80"/>
             </div>
           </div>
         </div>
