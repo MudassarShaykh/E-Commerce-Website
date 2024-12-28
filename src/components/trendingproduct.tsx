@@ -45,7 +45,7 @@ export default function TrendingProduct() {
           <div className="relative shadow-md shadow-gray-400 group cursor-pointer">
             <div className="h-36 w-24 sm:w-28 font-FullTypeface">
               <div className="h-2/3 flex items-center justify-center bg-gray-200 mx-2 mt-2">
-                <img src="/Images/Sofa-2.png" className="h-2/3" alt="Nothing"/>
+                <img src="/Images/Sofa-3.png" className="h-2/3" alt="Nothing"/>
               </div>
               <div className="h-1/3 flex items-center justify-center bg-white group-hover:bg-blue-900 transition-all duration-700 ease-in">
                 <div className="flex flex-col gap-1 items-center text-xxs group-hover:text-white">
@@ -139,7 +139,7 @@ export default function TrendingProduct() {
               <p className="text-xs text-pink-600 underline">Shop Now</p>
             </div>
             <div className="flex justify-end items-center h-3/4">
-              <img src="images/tvtable-1.png" className="w-full" alt="Nothing"/>
+              <img src="/Images/tvtable-1.png" className="w-full" alt="Nothing"/>
             </div>
           </div>
         </div>
