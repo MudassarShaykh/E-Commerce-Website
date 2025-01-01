@@ -1,15 +1,14 @@
 "use client"
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {Pagination, Autoplay , Navigation } from "swiper/modules";
+import {Pagination, Autoplay} from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
 
 export default function HomePageSlider() {
   return (
     <Swiper
-      modules={[ Autoplay , Pagination , Navigation]}
+      modules={[ Autoplay , Pagination]}
       pagination={{ clickable: true}}
       navigation
       autoplay={{ delay: 1500 }}
