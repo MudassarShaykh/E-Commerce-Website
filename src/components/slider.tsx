@@ -1,15 +1,23 @@
 "use client"
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-import {Pagination, Autoplay} from "swiper/modules";
-import "css/swiper-bundle.css"
+import {Pagination, Autoplay , Navigation} from "swiper/modules";
+
 
 export default function HomePageSlider() {
   return (
     <Swiper
-      modules={[ Autoplay , Pagination]}
-      pagination={{ clickable: true}}
+      modules={[ Autoplay , Pagination , Navigation]}
+      pagination={{ 
+        clickable: true,
+        bulletClass: 'swiper-pagination-bullet w-3 h-3 rounded-full bg-swiper-pagination-default',
+        bulletActiveClass: 'swiper-pagination-bullet-active w-3 h-3 rounded-full bg-swiper-pagination-active scale-125',
+      }}
       autoplay={{ delay: 1500 }}
+      navigation={{
+        prevEl: '.swiper-button-prev',
+        nextEl: '.swiper-button-next',
+      }}
       loop
       className="w-full h-96"
     >
