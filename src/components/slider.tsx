@@ -10,7 +10,6 @@ export default function HomePageSlider() {
     <Swiper
       modules={[ Autoplay , Pagination]}
       pagination={{ clickable: true}}
-      navigation
       autoplay={{ delay: 1500 }}
       loop
       className="w-full h-96"
