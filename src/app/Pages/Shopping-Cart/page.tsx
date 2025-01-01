@@ -35,14 +35,14 @@ export default function ShoppingCart() {
           price: 40.0,
         },
         {
-          image: "/Images/Sofa-2.png",
+          image: "/Images/sofa-2.png",
           name: "Comfort Sofa CSV",
           color: "Beige",
           size: "M",
           price: 35.0,
         },
         {
-          image: "/Images/Sofa-3.png",
+          image: "/Images/sofa-3.png",
           name: "Classic Sofa CSV",
           color: "Green",
           size: "S",
