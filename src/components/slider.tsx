@@ -10,8 +10,8 @@ export default function HomePageSlider() {
       modules={[ Autoplay , Pagination , Navigation]}
       pagination={{ 
         clickable: true,
-        bulletClass: 'swiper-pagination-bullet w-3 h-3 rounded-full bg-swiper-pagination-default',
-        bulletActiveClass: 'swiper-pagination-bullet-active w-3 h-3 rounded-full bg-swiper-pagination-active scale-125',
+        bulletClass: 'swiper-pagination-bullet w-6 h-1 bg-swiper-pagination-default',
+        bulletActiveClass: 'swiper-pagination-bullet-active w-6 h-1 bg-swiper-pagination-active scale-125',
       }}
       autoplay={{ delay: 1500 }}
       navigation={{
