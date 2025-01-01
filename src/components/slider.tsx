@@ -2,8 +2,7 @@
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import {Pagination, Autoplay} from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
+import "css/swiper-bundle.css"
 
 export default function HomePageSlider() {
   return (
